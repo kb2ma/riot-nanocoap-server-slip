@@ -46,7 +46,7 @@ int main(void)
 
     /* configuration */
     /* set IP address for slip interface */
-    char *addr_str = "bbbb::2";
+    char *addr_str = "fd00:bbbb::2";
     uint8_t prefix_len = 64;
     kernel_pid_t iface = 7;
     ipv6_addr_t addr;
